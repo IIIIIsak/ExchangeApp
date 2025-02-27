@@ -1,0 +1,14 @@
+app:
+  name: CurrencyExchangeApp
+  port: :3000
+
+
+database:
+  dsn : root:20010102@tcp(127.0.0.1:3306)/Mysql?charset=utf8mb4&parseTime=True&loc=Local
+  MaxIdelConns : 11
+  MaxOpenCons: 114
+
+redis:
+  addr: localhost:6379
+  DB: 0
+  Password: ""
